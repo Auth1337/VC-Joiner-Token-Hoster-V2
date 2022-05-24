@@ -129,7 +129,7 @@ def task_(Token):
 
 
 for tk in all_tkens:
-  client = discord.Client(status=status, activity=acttt)
+  client = discord.Client(status=ust, activity=acttt)
   loop.create_task(client.start(tk, bot=False))
   akks.append(client)
   print(" ")
